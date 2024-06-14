@@ -1,0 +1,41 @@
+/*COLORES PARA EL HEADER*/
+header{
+    color:#ffffff;
+    background-color: black;
+    border-bottom: yellow 5px solid;
+}
+
+/*COLOR DE LETRAS PARA (INCIO, QUIENES SOMOS Y COMPAÑIA)*/
+#main-select a{
+    color:#ffffff;
+}
+
+/*COLOR DE FONDO DE LETRAS PARA (INCIO, QUIENES SOMOS Y COMPAÑIA)*/
+#newsletter{
+    background-color: black;
+    border-bottom: yellow 5px solid;
+}
+
+/*SOMBREADO PARA (INCIO, QUIENES SOMOS Y COMPAÑIA)*/
+#newsletter a:hover{
+    color: yellow;
+
+}
+
+/*COLORES PARA EL MENU SECUNDARIO*/
+#main-nav{
+    background-color: lightgrey;
+    border-bottom: yellow 5px solid;
+}
+
+/*COLORES PARA EL BODY*/
+#main-section{
+    background-color: lightgrey;
+    border-bottom: yellow 5px solid;
+}
+
+/*COLORES PARA EL FOOTER*/
+footer{
+    color:#ffffff;
+    background-color: black;
+}

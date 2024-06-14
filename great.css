@@ -1,0 +1,40 @@
+/*ESTO AYUDA A MODIFICAR PAGINA GRANDE*/
+.display-great{
+    display: inherit !important;
+}
+
+/*ALINEACION CENTRADA A TODO EL DOCUMENTO*/
+body{
+    text-align: center;
+}
+
+/*ALINEACION AL CUERPO DEL DOCUMENTO*/
+header, footer, #wrapper, #newsletter, #main-select, #main-section{
+    margin-left: auto; /*ALINEACION CORRECTA*/
+    margin-right: auto; /*ALINEACION CORRECTA*/
+    clear: both;
+    width: 100%;
+    max-width: 1500px; /*ESTILO CENTRADO ALINEADO IZQUIERDA*/
+}
+
+/*TAMAÑO LOGOTIPO PROTAX*/
+.logoprotax{
+    height: 100px;
+    width: 250px;
+}
+
+/*TAMAÑO PRODUCTOS*/
+.productos{
+    height: 100px;
+    width: 130px;
+}
+
+/*TAMAÑO PARA ENLACES (INICIO, QUIENES SOMOS Y SERVICIOS)*/
+#newsletter{
+    font-size: 1.0em;
+}
+
+ /*ESPACIADO PARA (INICIO, QUIENES SOMOS Y SERVICIOS)*/
+#newsletter li{
+	padding: 50px;
+}

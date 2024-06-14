@@ -1,0 +1,37 @@
+/*ESTO AYUDA A MODIFICAR PAGINA CHICA*/
+.display-mini{
+    display: inherit !important;
+}
+
+/*ALINEACION CENTRADA PARA TODO EL DOCUMENTO*/
+body{
+    text-align: center;
+}
+
+/*TAMAÑO DEL DESPLEGABLE SOLO DISPONIBLE EN PAGINA CHICA*/
+select.display-mini{
+    font-size: 1.2em;
+    width: 100%;
+}
+
+/*TAMAÑO LOGOTIPO PROTAX*/
+.logoprotax{
+    height: 40px;
+    width: 160px;
+}
+
+/*TAMAÑO PRODUCTOS*/
+.productos{
+    height: 40px;
+    width: 70px;
+}
+
+/*TAMAÑO PARA ENLACES (INICIO, QUIENES SOMOS Y SERVICIOS)*/
+#newsletter{
+    font-size: 0.6em;
+}
+
+ /*ESPACIADO PARA (INICIO, QUIENES SOMOS Y SERVICIOS)*/
+#newsletter li{
+	padding: 20px;
+}

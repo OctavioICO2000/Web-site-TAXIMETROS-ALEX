@@ -1,0 +1,37 @@
+/*ESTO OCULTA OBJETOS DEPENDIENDO DEL TAMAÑO DE LA PANTALLA*/
+.display-great{
+    display: none;
+}
+
+.display-medium{
+    display: none;
+}
+
+.display-mini{
+    display: none;
+}
+
+/*ESTO ELIMINA ESPACIADO IZQUIERDO DE TODA LA PANTALLA*/
+body{
+    margin:0;
+}
+
+/*ELIMINA ESPACIADOS*/
+header, footer, #newsletter, #main-nav, #main-section{
+    padding-top: 1px;
+}
+
+/*ESTO QUITA ESTILO SUBRAYADO*/
+#newsletter a{
+	text-decoration: none;
+}
+
+/*ESTO QUITA ESTILO VIÑETAS*/
+#newsletter li{
+	display: inline;
+}
+
+/*ESTO ELIMINA ESPACIADO INFERIOR EN FOOTER*/
+footer{
+    padding: 1px;
+  }

@@ -1,0 +1,31 @@
+/*ESTO AYUDA A MODIFICAR PAGINA MEDIANA*/
+.display-medium{
+    display: inherit !important;
+}
+
+/*ALINEACION CENTRADA PARA TODO EL DOCUMENTO*/
+body{
+    text-align: center;
+}
+
+/*TAMAÑO LOGOTIPO PROTAX*/
+.logoprotax{
+    height: 80px;
+    width: 230px;
+}
+
+/*TAMAÑO PRODUCTOS*/
+.productos{
+    height: 80px;
+    width: 110px;
+}
+
+/*TAMAÑO PARA ENLACES (INICIO, QUIENES SOMOS Y SERVICIOS)*/
+#newsletter{
+    font-size: 0.8em;
+}
+
+ /*ESPACIADO PARA (INICIO, QUIENES SOMOS Y SERVICIOS)*/
+#newsletter li{
+	padding: 15px;
+}
