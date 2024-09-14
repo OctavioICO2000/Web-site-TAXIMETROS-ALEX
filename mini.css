@@ -3,9 +3,34 @@
     display: inherit !important;
 }
 
-/*ALINEACION CENTRADA PARA TODO EL DOCUMENTO*/
-body{
+#wrapper, #newsletter, #main-section, .container{
+    font-size: 9px;
     text-align: center;
+}
+
+/*INICIO, QUIENES SOMOS Y SERVICIOS*/
+header{
+    padding: 5px;
+    font-size: 5px;
+}
+
+#main-select{
+    font-size: 7px;
+}
+
+footer{
+    font-size: 8px;
+    text-align: center;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
 }
 
 /*TAMAÑO DEL DESPLEGABLE SOLO DISPONIBLE EN PAGINA CHICA*/
@@ -16,8 +41,8 @@ select.display-mini{
 
 /*TAMAÑO LOGOTIPO PROTAX*/
 .logoprotax{
-    height: 40px;
-    width: 160px;
+    height: 20px;
+    width: 80px;
 }
 
 /*TAMAÑO PRODUCTOS*/
@@ -31,7 +56,7 @@ select.display-mini{
     font-size: 0.6em;
 }
 
- /*ESPACIADO PARA (INICIO, QUIENES SOMOS Y SERVICIOS)*/
+/*ESPACIADO PARA (INICIO, QUIENES SOMOS Y SERVICIOS)*/
 #newsletter li{
-	padding: 20px;
+	padding: 10px;
 }
