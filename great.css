@@ -123,3 +123,14 @@ header, footer, #wrapper, #newsletter, #main-select,
 	padding: 15px;
 }
 
+/*FORMATO ENCABEZADO DEL SLIDER DE SERVICES*/
+#menu-slider h2{
+    font-size: 50px;
+    text-decoration: none;
+}
+
+/*FORMATO BOTONES DEL SLIDER DE SERVICES*/
+.slider-nav{
+    column-gap: 3.5rem; /*ESPACIO HORIZONTAL*/
+}
+

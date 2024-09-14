@@ -60,3 +60,151 @@ select.display-mini{
 #newsletter li{
 	padding: 10px;
 }
+
+/*ATRIBUTOS PARA MINI*/
+/*A EDITAR*/
+.nosotros, .mision, .ubicacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.nosotros{
+    background: url(01_nosotros.jpeg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.nosotros, .mision, .ubicacion{
+    height: 80vh !important;
+}
+
+.contacto, .servicios{
+    height: 70vh !important;
+}
+
+.mision{
+    background: url(02_mision.jpeg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.ubicacion{
+    background: url(03_ubicacion.jpeg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+/*CUADROS QUE DICEN SABER MAS*/
+.boton{
+    display: inline-block;
+    margin-top: -20px;
+    padding: 5px 20px;/*MOD. ALTO Y ANCHO*/
+    text-decoration: none;
+}
+
+.boton:hover{
+    background: none;
+}
+
+.boton-inicio{
+    display: flex;
+}
+
+.boton-inicio a{
+    margin: 0 10px;
+}
+
+/*FORMATO CORRECTO A LOS CONTENIDOS*/
+.contenido{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*FORMATO A ENCABEZADOS*/
+.titulo{
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*FORMATO A PARRAFOS DE LOS CONTENIDOS*/
+.contenido p{
+    margin-bottom: 40px;
+    font-size: 8px;
+    padding: 0 40px;
+}
+
+
+/*ATRIBUTOS PARA MINI*/
+/*A MODIFICAR*/
+
+/*MODIFICAR TAMAÑO DE LAS IMAGENES*/
+.slider-wrapper{
+    position: relative; /*A MODIFICAR*/
+    max-width: 100%; /*MAS GRANDE O MAS CHICO EL SLIDER*/
+    margin: 0 auto; /*ESTO LA MANTIENE CENTRADA*/
+}
+
+/*FORMATO HORIZONTAL A LAS IMAGENES*/
+.slider{
+    display: flex; /*FORMATO DE SLIDER*/
+    aspect-ratio: 16 / 9; /*FORMATO DE LAS IMAGENES*/
+    overflow-x: hidden; /*OCULTA LAS DEMAS IMAGENES*/
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: .5rem;
+}
+
+/*AJUSTE DE IMAGENES DEL SLIDER*/
+.slider img{
+    flex: 1 0 100%; /*VISUALIZACIÓN CORRECTA DE IMAGEN ACTIVA*/
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+/*FORMATO BOTONES DEL SLIDER*/
+.slider-nav{
+    display: flex; /*POSICIÓN INFERIOR*/
+    column-gap: 3.5rem; /*ESPACIO HORIZONTAL*/
+    position: absolute; /*POSICIÓN INFERIOR*/
+    bottom: -0.5rem; /*ESPACIO INFERIOR*/
+    left: 50%; /*FORMATO CENTRADO*/
+    transform: translateX(-50%); /*FORMATO CENTRADO*/
+    z-index: 1;
+}
+
+/*FORMATO ENCABEZADO DEL SLIDER*/
+#menu-slider h2{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*FORMATO ENLACES DEL SLIDER*/
+/*POSIBLE A ELIMINAR*/
+.slider-nav a{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: black;
+    transition: opasity ease 250ms;
+    text-decoration: none; /*ESTO ELIMINA EL FORMATO DE ENLACE*/
+}
+
+/*POSIBLE A ELIMINAR*/
+.slider-nav a:hover{
+    opacity: 1;
+}
+
+/*FORMATO BOTONES DEL SLIDER DE SERVICES*/
+.slider-nav{
+    column-gap: 1.0rem; /*ESPACIO HORIZONTAL*/
+}
