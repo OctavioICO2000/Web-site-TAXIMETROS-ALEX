@@ -70,6 +70,10 @@ header{
     text-align: center;
 }
 
+.producto, .quienes-somos, .servicio{
+    height: 20vh !important;
+}
+
 .nosotros, .mision, .ubicacion{
     height: 80vh !important;
 }
@@ -90,14 +94,6 @@ header{
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-}
-
-/*CUADROS QUE DICEN SABER MAS*/
-.boton{
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;/*MOD. ALTO Y ANCHO*/
-    text-decoration: none;
 }
 
 .boton:hover{
@@ -123,17 +119,25 @@ header{
 
 /*FORMATO A ENCABEZADOS*/
 .titulo{
-    margin-bottom: 40px;
-    font-size: 60px;
+    margin-bottom: -20px;
+    font-size: 50px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 /*FORMATO A PARRAFOS DE LOS CONTENIDOS*/
 .contenido p{
-    margin-bottom: 40px;
+    margin-bottom: 150px;
     font-size: 15px;
-    padding: 0 40px;
+    padding: 0 10px;
+}
+
+/*CUADROS QUE DICEN SABER MAS*/
+.boton{
+    display: inline-block;
+    margin-top: -140px;
+    padding: 10px 40px;/*MOD. ALTO Y ANCHO*/
+    text-decoration: none;
 }
 
 
@@ -169,7 +173,7 @@ header{
     display: flex; /*POSICIÓN INFERIOR*/
     column-gap: 3.5rem; /*ESPACIO HORIZONTAL*/
     position: absolute; /*POSICIÓN INFERIOR*/
-    bottom: -0.5rem; /*ESPACIO INFERIOR*/
+    bottom: 1.0rem; /*ESPACIO INFERIOR*/
     left: 50%; /*FORMATO CENTRADO*/
     transform: translateX(-50%); /*FORMATO CENTRADO*/
     z-index: 1;

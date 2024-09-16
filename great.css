@@ -35,6 +35,10 @@ header, footer, #wrapper, #newsletter, #main-select,
     text-align: center;
 }
 
+.producto, .quienes-somos, .servicio{
+    height: 30vh !important;
+}
+
 .nosotros, .mision, .ubicacion{
     height: 80vh !important;
 }
@@ -55,14 +59,6 @@ header, footer, #wrapper, #newsletter, #main-select,
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
-}
-
-/*CUADROS QUE DICEN SABER MAS*/
-.boton{
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;/*MOD. ALTO Y ANCHO*/
-    text-decoration: none;
 }
 
 .boton:hover{
@@ -88,17 +84,25 @@ header, footer, #wrapper, #newsletter, #main-select,
 
 /*FORMATO A ENCABEZADOS*/
 .titulo{
-    margin-bottom: 40px;
-    font-size: 60px;
+    margin-bottom: 10px;
+    font-size: 80px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
+/*CUADROS QUE DICEN SABER MAS*/
+.boton{
+    display: inline-block;
+    margin-top: -20px;
+    padding: 10px 40px;/*MOD. ALTO Y ANCHO*/
+    text-decoration: none;
+}
+
 /*FORMATO A PARRAFOS DE LOS CONTENIDOS*/
 .contenido p{
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     font-size: 30px;
-    padding: 0 40px;
+    padding: 0 10px;
 }
 
 /*TAMAÑO LOGOTIPO PROTAX*/
@@ -132,5 +136,6 @@ header, footer, #wrapper, #newsletter, #main-select,
 /*FORMATO BOTONES DEL SLIDER DE SERVICES*/
 .slider-nav{
     column-gap: 3.5rem; /*ESPACIO HORIZONTAL*/
+    bottom: 1.0rem; /*ESPACIO INFERIOR*/
 }
 
