@@ -26,7 +26,6 @@
 .slider-nav{
     display: flex; /*POSICIÓN INFERIOR*/
     position: absolute; /*POSICIÓN INFERIOR*/
-    bottom: -0.5rem; /*ESPACIO INFERIOR*/
     left: 50%; /*FORMATO CENTRADO*/
     transform: translateX(-50%); /*FORMATO CENTRADO*/
     z-index: 1;
