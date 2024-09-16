@@ -33,12 +33,6 @@ footer{
     }
 }
 
-/*TAMAÑO DEL DESPLEGABLE SOLO DISPONIBLE EN PAGINA CHICA*/
-select.display-mini{
-    font-size: 1.2em;
-    width: 100%;
-}
-
 /*TAMAÑO LOGOTIPO PROTAX*/
 .logoprotax{
     height: 20px;
@@ -81,8 +75,8 @@ select.display-mini{
     height: 80vh !important;
 }
 
-.contacto, .servicios{
-    height: 70vh !important;
+.contacto, .servicios, .servicio{
+    height: 50vh !important;
 }
 
 .mision{
@@ -102,8 +96,8 @@ select.display-mini{
 /*CUADROS QUE DICEN SABER MAS*/
 .boton{
     display: inline-block;
-    margin-top: -20px;
-    padding: 5px 20px;/*MOD. ALTO Y ANCHO*/
+    margin-top: -60px;
+    padding: -5px 10px;/*MOD. ALTO Y ANCHO*/
     text-decoration: none;
 }
 
@@ -130,22 +124,21 @@ select.display-mini{
 
 /*FORMATO A ENCABEZADOS*/
 .titulo{
-    margin-bottom: 40px;
-    font-size: 20px;
+    margin-bottom: -10px;/*SUBIR Y BAJAR POSICION*/
+    font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 /*FORMATO A PARRAFOS DE LOS CONTENIDOS*/
 .contenido p{
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     font-size: 8px;
-    padding: 0 40px;
+    padding: 10 50px;
 }
 
-
-/*ATRIBUTOS PARA MINI*/
-/*A MODIFICAR*/
+/*ATRIBUTOS DE MINI PARA SERVICES*/
+/*SLIDER MANUAL*/
 
 /*MODIFICAR TAMAÑO DE LAS IMAGENES*/
 .slider-wrapper{
@@ -184,7 +177,7 @@ select.display-mini{
 
 /*FORMATO ENCABEZADO DEL SLIDER*/
 #menu-slider h2{
-    font-size: 20px;
+    font-size: 10px;
     text-decoration: none;
 }
 
