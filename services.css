@@ -25,18 +25,11 @@
 /*FORMATO BOTONES DEL SLIDER*/
 .slider-nav{
     display: flex; /*POSICIÓN INFERIOR*/
-    column-gap: 3.5rem; /*ESPACIO HORIZONTAL*/
     position: absolute; /*POSICIÓN INFERIOR*/
     bottom: -0.5rem; /*ESPACIO INFERIOR*/
     left: 50%; /*FORMATO CENTRADO*/
     transform: translateX(-50%); /*FORMATO CENTRADO*/
     z-index: 1;
-}
-
-/*FORMATO ENCABEZADO DEL SLIDER*/
-#menu-slider h2{
-    font-size: 50px;
-    text-decoration: none;
 }
 
 /*FORMATO ENLACES DEL SLIDER*/
