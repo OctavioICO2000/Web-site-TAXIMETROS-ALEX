@@ -71,7 +71,7 @@ header{
 }
 
 .producto, .quienes-somos, .servicio{
-    height: 20vh !important;
+    height: 40vh !important;
 }
 
 .nosotros, .mision, .ubicacion{
@@ -127,15 +127,15 @@ header{
 
 /*FORMATO A PARRAFOS DE LOS CONTENIDOS*/
 .contenido p{
-    margin-bottom: 150px;
+    margin-bottom: 200px;
     font-size: 15px;
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 /*CUADROS QUE DICEN SABER MAS*/
 .boton{
     display: inline-block;
-    margin-top: -140px;
+    margin-top: -200px;
     padding: 10px 40px;/*MOD. ALTO Y ANCHO*/
     text-decoration: none;
 }
