@@ -178,7 +178,7 @@ footer{
 
 /*FORMATO ENCABEZADO DEL SLIDER*/
 #menu-slider h2{
-    font-size: 10px;
+    font-size: 5px;
     text-decoration: none;
 }
 
@@ -200,5 +200,5 @@ footer{
 
 /*FORMATO BOTONES DEL SLIDER DE SERVICES*/
 .slider-nav{
-    column-gap: 1.0rem; /*ESPACIO HORIZONTAL*/
+    column-gap: 2.5rem; /*ESPACIO HORIZONTAL*/
 }
